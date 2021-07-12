@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+		"build": "npm install"
   },
   "keywords": [],
   "author": "Anastasia Andreasen <andr@gmail.com>",
