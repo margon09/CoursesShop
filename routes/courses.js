@@ -4,9 +4,7 @@
  const {
  	validationResult
  } = require('express-validator')
- const {
- 	reset
- } = require('nodemon')
+
  const Course = require('../models/course')
  const auth = require('../middleware/auth')
  const {
